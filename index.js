@@ -1,5 +1,12 @@
-const Person = require('./person');
+const Logger = require('./logger');
 
-const person1 = new Person('John Doe', 30);
+const logger = new Logger();
 
-person1.greting();
+logger.on('message', data => console.log('Generating USER', data));
+
+
+//Users
+logger.log('Geo');
+logger.log('Niccu');
+logger.log('Dan');
+logger.log('Ephy');
