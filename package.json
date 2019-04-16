@@ -1,0 +1,23 @@
+{
+  "name": "node-geotechee",
+  "version": "1.0.0",
+  "description": "geotechee node boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geovica/node-boilerplate.git"
+  },
+  "author": "geotechee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geovica/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Geovica/node-boilerplate#readme",
+  "dependencies": {
+    "nodemon": "^1.18.11",
+    "uuid": "^3.3.2"
+  }
+}
